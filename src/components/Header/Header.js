@@ -4,7 +4,7 @@ import './Header.css';
 function Header({ currentTab, handlePageChange }) {
 
   return (
-    <header className="flex-row px-1">
+    <header className="custom-header flex-row px-1">
 
         <Nav
          currentTab={currentTab}

@@ -1,10 +1,10 @@
 // import { useEffect } from "react";
-
+import './Nav.css'
 const Nav = ({currentPage, handlePageChange}) => {
 
 
 return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="custom navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

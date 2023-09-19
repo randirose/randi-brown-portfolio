@@ -2,33 +2,34 @@ import Project from "./Project/Project";
 
 const works = [
     {
-        src: "/hero.jpg",
-        title: "title",
+        src: "/dashboard.png",
+        title: "Asset Manager",
         text: "text",
+        alt: "alt text",
+        url: "https://www.google.com/",
+        repo: "https://www.google.com/"
     },
     {
-        src: "/hero.jpg",
-        title: "title",
+        src: "/screenshot-blank.png",
+        title: "Note Taker",
         text: "text",
+        alt: "alt text",
+        url: "www.google.com",
+        repo: "www.google.com"
     },
     {
-        src: "/hero.jpg",
-        title: "title",
+        src: "/screenshot-blogpost-comments.png",
+        title: "Tech Blog",
         text: "text",
+        alt: "alt text",
+        url: "www.google.com",
+        repo: "www.google.com"
     },
 
 ]
 
 export default function Portfolio(props) {
     return (
-        <ul className="list-group">
-        {props.works.map((index) => {
-          return (
-            <li className="list-group-item" key={index}>
-            <Project props={works} />
-          </li>
-          );
-        })}
-      </ul>
+        <Project works={works} />
     );
   }
