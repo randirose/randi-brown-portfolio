@@ -1,0 +1,27 @@
+.list-group-item {
+    margin-top: 20px;
+}
+
+.card-title,
+.card-text {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 200%;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-holder {
+    display: flex;
+    justify-content: space-around
+}

@@ -4,18 +4,18 @@ const Nav = ({currentPage, handlePageChange}) => {
 
 
 return (
-    <nav className="custom navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-light nav-underline navbar-expand-lg justify-content-end">
   <div className="container-fluid">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item">
+    <div className="collapse navbar-collapse navbar-light justify-content-end nav-underline" id="navbarNav">
+        <ul className="navbar-nav justify-content-end nav-underline fixed-top p-3">
+          <li className="nav-item" >
             <a
               href="#about"
               onClick={() => handlePageChange('About')}
-    
+              
               className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >
               About

@@ -1,8 +1,16 @@
-.text-white {
+.text-dark {
     text-shadow: 2px 2px 2px darkgray;
 }
 
-
 .bg-image {
-  z-index: 1;
-  }
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    margin-top: -20px;
+}

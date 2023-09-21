@@ -1,3 +1,4 @@
 .navbar {
-    position: relative;
+    position: relative !important;
+    padding: 20px;
 }
