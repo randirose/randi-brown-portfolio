@@ -1,5 +1,13 @@
-.text-dark {
+.text-dark h1 {
     text-shadow: 2px 2px 2px darkgray;
+    font-family: typeface-muli;
+    font-size: 300%;
+}
+
+.text-dark h4 {
+    text-shadow: 2px 2px 2px darkgray;
+    font-family: typeface-muli;
+    font-size: 200%;
 }
 
 .bg-image {

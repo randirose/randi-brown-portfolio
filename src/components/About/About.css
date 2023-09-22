@@ -1,0 +1,15 @@
+.card {
+    border: none;
+}
+
+.about-title{
+    font-family: typeface-muli;
+    font-size: 300%;
+    text-align: center;
+}
+
+.about-text {
+    font-family: typeface-muli;
+    font-size: 150%;
+    line-height: 200%;
+}

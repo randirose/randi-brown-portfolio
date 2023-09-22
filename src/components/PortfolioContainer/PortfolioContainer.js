@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Nav from '../Navigation/Nav';
+// import Nav from '../Navigation/Nav';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
@@ -30,7 +30,9 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <hr className="divider"></hr>
       {renderPage()}
+      {/* <Footer /> */}
     </div>
   );
 }
