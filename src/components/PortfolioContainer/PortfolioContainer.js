@@ -30,7 +30,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <hr className="divider"></hr>
+      <hr></hr>
       {renderPage()}
       {/* <Footer /> */}
     </div>

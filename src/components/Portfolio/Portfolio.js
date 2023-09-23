@@ -57,7 +57,6 @@ export default function Portfolio(props) {
     return (
         <div>
             <h1 className="portfolio-header">Check out my work below:</h1>
-            <hr className='divider'></hr>
         <Project works={works} />
         </div>
     );

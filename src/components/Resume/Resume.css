@@ -1,5 +1,39 @@
-.card-header {
-    height: 75px;
-    background-color: #e5b6a3;
-    margin: 5px;
+.res-title {
+    font-family: typeface-muli;
+    font-size: 250%;
+    text-align: center;
+}
+
+.res-header {
+    font-family: typeface-muli;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.res-body {
+    font-family: typeface-muli;
+    text-align: center;
+    list-style-type: none;
+}
+
+.res-card {
+    background-color: rgb(229, 182, 163, 0.5);
+
+}
+
+.download-btn {
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.download-btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.res-btn-holder {
+    display: flex;
+    justify-content: center;
 }

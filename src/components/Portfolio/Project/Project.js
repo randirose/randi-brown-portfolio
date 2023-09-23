@@ -12,8 +12,8 @@ export default function Project(props) {
             <h5 className="card-title project-title">{item.title}</h5>
                 <p className="card-tex project-text">{item.text}</p>
                 <div className='button-holder'>
-                <button type="button" class="btn btn-light"><a href={item.url}>App Site</a></button>
-                <button type="button" class="btn btn-light"><a href={item.repo}>GitHub Repo</a></button>
+                <button type="button" class="btn btn-outline-secondary"><a href={item.url}>App Site</a></button>
+                <button type="button" class="btn btn-outline-secondary"><a href={item.repo}>GitHub Repo</a></button>
                 </div>
                 </div>
                 </div>
