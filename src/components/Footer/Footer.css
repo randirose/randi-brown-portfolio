@@ -1,0 +1,36 @@
+.footer-text {
+    font-family: typeface-muli;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 50%;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgb(229, 182, 163), white);
+    /* background-color: rgb(229, 182, 163, 0.7); */
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo-list {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+}
+

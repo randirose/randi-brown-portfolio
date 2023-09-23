@@ -17,6 +17,7 @@ export default function Resume() {
         <li>Web APIs</li>
         <li>Third-Party APIs</li>
         <li>Server-Side APIs</li>
+        <li>JQUERY</li>
   </div>
 </div>
 <div className="card res-card col-12 col-md-3" style={{backgroundColor: 'rgb(229, 182, 163, 0.5)'}}>

@@ -10,6 +10,14 @@
     font-size: 200%;
 }
 
+.text-dark p {
+    text-shadow: 2px 2px 2px darkgray;
+    font-family: typeface-muli;
+    font-size: 150%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .bg-image {
     background-size: cover;
     background-repeat: no-repeat;

@@ -18,7 +18,8 @@ function Header({ currentTab, handlePageChange }) {
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-dark'>
               <h1 className='mb-3'>Welcome to Randi Brown's Portfolio</h1>
-              <h4 className='mb-3'>Here, you can view my work, my skills and experience, contact me, or download my resume.</h4>
+              <h4 className='mb-3'>—Full-Stack Web Developer—</h4>
+              <p>Please feel free to check out my Portfolio of work, my Resume and my skills, and reach out by clicking on Contact. Get to know me on my About page!</p>
             </div>
           </div>
         </div>

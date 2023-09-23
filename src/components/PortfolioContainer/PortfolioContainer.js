@@ -5,6 +5,7 @@ import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
 import Resume from '../Resume/Resume';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -32,7 +33,7 @@ export default function PortfolioContainer() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <hr></hr>
       {renderPage()}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
