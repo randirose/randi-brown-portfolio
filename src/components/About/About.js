@@ -1,11 +1,12 @@
 import './About.css';
+import avatar from './me.jpg'
 
 export default function About() {
     return (
         <div className="card about-card mb-3 border-0">
   <div className="row g-0">
     <div className="col-md-4">
-      <img src="./randi-brown-portfolio/me.jpg" className="img-fluid rounded-start rounded-end" alt="Randi at Grand Tetons"></img>
+      <img src={avatar} className="img-fluid rounded-start rounded-end" alt="Randi at Grand Tetons"></img>
     </div>
     <div className="col-md-8">
       <div className="card-body">
