@@ -13,7 +13,7 @@ function Header({ currentTab, handlePageChange }) {
 
         <div
         className='p-5 text-center bg-image'
-        style={{ backgroundImage: "url('/hero2.png')", height: 600, width: '100%' }}
+        style={{ backgroundImage: "url('./hero2.png')", height: 600, width: '100%' }}
       >
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-dark'>

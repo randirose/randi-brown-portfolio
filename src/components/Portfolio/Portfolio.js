@@ -3,7 +3,7 @@ import './Portfolio.css'
 
 const works = [
     {
-        src: "/dashboard.png",
+        src: "./dashboard.png",
         title: "Asset Manager",
         text: "Manages the tech equipment for Portland Public Schools using MySQL and Sequelize, as well as Bootstrap for our CSS framework.",
         alt: "Asset Manager Screenshot",
@@ -11,7 +11,7 @@ const works = [
         repo: "https://github.com/randirose/group-proj-2"
     },
     {
-        src: "/screenshot-blank.png",
+        src: "./screenshot-blank.png",
         title: "Note Taker",
         text: "Keep track of all your notes using a custom-built API and routing via Express.js. View (GET) Add (POST), Edit (PUT) and Delete (DELETE) your notes.",
         alt: "Note Taker Screenshot",
@@ -19,7 +19,7 @@ const works = [
         repo: "https://github.com/randirose/note-taker-randi"
     },
     {
-        src: "/screenshot-blogpost-comments.png",
+        src: "./screenshot-blogpost-comments.png",
         title: "Tech Blog",
         text: "This MVC app includes robust front and back-end functionalities, including a database using MySQL/Sequelize and the Handlebars view engine.",
         alt: "Tech Blog Screenshot",
@@ -27,7 +27,7 @@ const works = [
         repo: "https://github.com/randirose/tech-blog-mvc-randi"
     },
     {
-        src: "/screenshot_scheduler.png",
+        src: "./screenshot_scheduler.png",
         title: "Work Day Scheduler",
         text: "This app uses Day.js, Bootstrap, and complex JavaScript to deliver an effecient workday calendar, color-coded by time-of-day.",
         alt: "Work Day Scheduler Screenshot",
@@ -35,7 +35,7 @@ const works = [
         repo: "https://github.com/randirose/week-5-challenge"
     },
     {
-        src: "/app_screenshot.png",
+        src: "./app_screenshot.png",
         title: "International Travel Planner",
         text: "This fully front-end web app uses JavaScript, JQUERY, and third-party API fetch calls to deliver the currency rate and current weather for a selected city.",
         alt: "International Travel Planner Screenshot",
@@ -43,7 +43,7 @@ const works = [
         repo: "https://github.com/efogerson1/Travel-Planner"
     },
     {
-        src: "/weather-dash-screenshot.png",
+        src: "./weather-dash-screenshot.png",
         title: "Weather Dashboard",
         text: "This app uses the Open Weather API to fetch the weather data for any city in the world, as well asnlocal storage to save/render previously searched cities.",
         alt: "Weather Dashboard Screenshot",
