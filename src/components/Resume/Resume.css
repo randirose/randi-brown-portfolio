@@ -8,6 +8,7 @@
     font-family: typeface-muli;
     margin-left: 10px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .res-body {
@@ -18,13 +19,12 @@
 
 .res-card {
     background-color: rgb(229, 182, 163, 0.5);
+    margin-bottom: 20px;
 
 }
 
 .download-btn {
-    width: 60%;
-    margin-left: 30px;
-    margin-bottom: 5px;
+    width: 50%;
 }
 
 .download-btn a {
@@ -36,4 +36,5 @@
 .res-btn-holder {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }

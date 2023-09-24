@@ -1,4 +1,3 @@
-// import { useEffect } from "react";
 import './Nav.css'
 const Nav = ({currentPage, handlePageChange}) => {
 

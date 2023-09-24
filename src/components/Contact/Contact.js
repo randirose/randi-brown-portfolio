@@ -113,8 +113,16 @@ function Contact() {
             </button>
           </form>
         </div>
+        {errorMessage && (
+          <div>
             <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+        {successMessage && (
+          <div>
             <p className="success-text">{successMessage}</p>
+          </div>
+        )}
       </div>
     </section>
   );

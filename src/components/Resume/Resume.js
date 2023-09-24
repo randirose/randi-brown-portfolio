@@ -3,7 +3,7 @@ import './Resume.css'
 export default function Resume() {
     return (
         <>
-        <h1 className="res-header">Check out my skills below and/or download my resume!</h1>
+        <h1 className="res-header">Check out my skills below and download my resume:</h1>
         <div className="res-btn-holder">
         <button className="btn btn-secondary download-btn"><a href='./RandiB_Resume.png' download>
               Download My Resume (PDF)</a></button>

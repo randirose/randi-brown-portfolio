@@ -1,9 +1,15 @@
 .btn-contact-submit {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .error-text,
 .success-text,
 .contact-form {
     font-family: typeface-muli;
+}
+
+.error-text,
+.success-text {
+    font-style: italic;
 }

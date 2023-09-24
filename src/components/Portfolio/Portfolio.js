@@ -39,8 +39,8 @@ const works = [
         title: "International Travel Planner",
         text: "This fully front-end web app uses JavaScript, JQUERY, and third-party API fetch calls to deliver the currency rate and current weather for a selected city.",
         alt: "International Travel Planner Screenshot",
-        url: "https://efogerson1.github.io/group-proj-1/",
-        repo: "https://github.com/efogerson1/group-proj-1"
+        url: "https://efogerson1.github.io/Travel-Planner/",
+        repo: "https://github.com/efogerson1/Travel-Planner"
     },
     {
         src: "/weather-dash-screenshot.png",

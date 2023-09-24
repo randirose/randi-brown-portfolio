@@ -2,3 +2,9 @@
     position: relative !important;
     padding: 20px;
 }
+
+.nav-link,
+.nav-link-active {
+    font-family: typeface-muli;
+    text-shadow: 1px 1px 1px white;
+}
