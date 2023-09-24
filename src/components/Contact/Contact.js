@@ -12,7 +12,7 @@ function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
 
-  const handleInputChange = (e) => {
+  const handleInput = (e) => {
     // this function grabs value from wherever the user's cursor is to display inside the input by setting that state
     const { target } = e;
     const inputType = target.name;
@@ -28,18 +28,36 @@ function Contact() {
     }
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
+  const handleInputChange = (e) => {
+    if (!name) {
+        setErrorMessage("Please enter your name");
+        return; 
+    }
 
-    //check to see if email is valid and name is entered, if not, displays error message
     if (!validateEmail(email)) {
         setErrorMessage("Email is invalid");
         return;
     }
 
+    //check to see if message is entered by user
+    if (!message) {
+        setErrorMessage("A message is required.");
+        return;
+    }
+  }
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    //check to see if email is valid and name is entered, if not, displays error message
     if (!name) {
         setErrorMessage("Please enter your name");
         return; 
+    }
+
+    if (!validateEmail(email)) {
+        setErrorMessage("Email is invalid");
+        return;
     }
 
     //check to see if message is entered by user
@@ -48,7 +66,7 @@ function Contact() {
         return;
     }
 
-    if (name && message && !validateEmail(email)) {
+    if (name && message && validateEmail(email)) {
         setSuccessMessage("Your contact info was submitted!");
         return;
     }
@@ -75,7 +93,8 @@ function Contact() {
               className="form-control mt-2 mb-2"
               value={name}
               name="name"
-              onChange={handleInputChange}
+              onBlurCapture={handleInputChange}
+              onChange={handleInput}
               type="text"
               id="contact-name"
               placeholder="Your Name"
@@ -87,7 +106,8 @@ function Contact() {
               className="form-control mt-2 mb-2"
               value={email}
               name="email"
-              onChange={handleInputChange}
+              onBlurCapture={handleInputChange}
+              onChange={handleInput}
               type="email"
               id="contact-email"
               placeholder="Your Email"
@@ -98,7 +118,8 @@ function Contact() {
               className="form-control mt-2 mb-2"
               value={message}
               name="message"
-              onChange={handleInputChange}
+              onBlurCapture={handleInputChange}
+              onChange={handleInput}
               type="message"
               id="contact-message"
               placeholder="Send Me a Message!"

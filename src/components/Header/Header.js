@@ -19,7 +19,7 @@ function Header({ currentTab, handlePageChange }) {
             <div className='text-dark'>
               <h1 className='mb-3'>Welcome to Randi Brown's Portfolio</h1>
               <h4 className='mb-3'>—Full-Stack Web Developer—</h4>
-              <p>Please feel free to check out my Portfolio of work, my Resume and my skills, and reach out by clicking on Contact. Get to know me on my About page!</p>
+              <p>Please feel free to check out my Portfolio of work, my Resume and my skills, and send me a message on my Contact page. <br />—<br />Check out my GitHub or LinkedIn Profiles, or reach out to my email via the links in the footer!</p>
             </div>
           </div>
         </div>
