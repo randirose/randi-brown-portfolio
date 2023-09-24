@@ -1,6 +1,6 @@
 import Nav from "../Navigation/Nav";
 import './Header.css';
-import headerImg from './hero2.png'
+// import headerImg from './hero2.png'
 
 function Header({ currentTab, handlePageChange }) {
 
@@ -14,7 +14,7 @@ function Header({ currentTab, handlePageChange }) {
 
         <div
         className='p-5 text-center bg-image'
-        style={{ backgroundImage: {headerImg}, height: 600, width: '100%' }}
+        style={{ backgroundImage: "url('./hero2.png')", height: 600, width: '100%' }}
       >
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-dark'>
