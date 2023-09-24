@@ -5,7 +5,7 @@ export default function About() {
         <div className="card about-card mb-3 border-0">
   <div className="row g-0">
     <div className="col-md-4">
-      <img src='./me.jpg' className="img-fluid rounded-start rounded-end" alt="Randi at Grand Tetons"></img>
+      <img src="./me.JPG" className="img-fluid rounded-start rounded-end" alt="Randi at Grand Tetons"></img>
     </div>
     <div className="col-md-8">
       <div className="card-body">
