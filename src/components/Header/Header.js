@@ -1,6 +1,5 @@
 import Nav from "../Navigation/Nav";
 import './Header.css';
-// import headerImg from './hero2.png'
 
 function Header({ currentTab, handlePageChange }) {
 

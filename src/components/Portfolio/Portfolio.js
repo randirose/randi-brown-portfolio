@@ -1,11 +1,5 @@
 import Project from "./Project/Project";
 import './Portfolio.css';
-// import assetMgr from "./dashboard.png";
-// import noteTaker from "./screenshot-blank.png";
-// import techBlog from "./screenshot-blogpost-comments.png";
-// import scheduler from "./screenshot_scheduler.png";
-// import travelPlanner from "./app_screenshot.png";
-// import weatherDash from "./weather-dash-screenshot.png";
 
 const works = [
     {
