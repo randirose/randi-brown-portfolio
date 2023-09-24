@@ -53,5 +53,5 @@ This app was made using `create-react-app` by running `npm create-react-app rand
 
 Visit the deployed portfolio here:  
 
-![Screenshot of main page](assets/screenshot-readme.png)
+![Screenshot of main page](randi-brown-portfolio/src/assets/screenshot-readme.png)
 
