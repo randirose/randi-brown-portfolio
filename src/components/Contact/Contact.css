@@ -1,3 +1,9 @@
 .btn-contact-submit {
     width: 100%;
 }
+
+.error-text,
+.success-text,
+.contact-form {
+    font-family: typeface-muli;
+}
