@@ -3,6 +3,14 @@ import './Portfolio.css';
 
 const works = [
     {
+        src: "./resume-builder-screenshot.png",
+        title: "Resume Builder",
+        text: "This full-stack React/GraphQL app allows users to continuously add to and remove from their downloadable, formatted resume.",
+        alt: "Resume Builder Screenshot",
+        url: "https://secure-tundra-34525-b3ddf11b8e0b.herokuapp.com/",
+        repo: "https://github.com/randirose/resume-builder-randi"
+    },
+    {
         src: "./dashboard.png",
         title: "Asset Manager",
         text: "Manages the tech equipment for Portland Public Schools using MySQL and Sequelize, as well as Bootstrap for our CSS framework.",
@@ -35,21 +43,13 @@ const works = [
         repo: "https://github.com/randirose/week-5-challenge"
     },
     {
-        src: "./app_screenshot.png",
-        title: "International Travel Planner",
-        text: "This fully front-end web app uses JavaScript, JQUERY, and third-party API fetch calls to deliver the currency rate and current weather for a selected city.",
-        alt: "International Travel Planner Screenshot",
-        url: "https://efogerson1.github.io/Travel-Planner/",
-        repo: "https://github.com/efogerson1/Travel-Planner"
-    },
-    {
         src: "./weather-dash-screenshot.png",
         title: "Weather Dashboard",
         text: "This app uses the Open Weather API to fetch the weather data for any city in the world, as well asnlocal storage to save/render previously searched cities.",
         alt: "Weather Dashboard Screenshot",
         url: "https://randirose.github.io/module-6-weather-dashboard/",
         repo: "https://github.com/randirose/module-6-weather-dashboard"
-    },
+    }
 
 ]
 
