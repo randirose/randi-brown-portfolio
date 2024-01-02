@@ -6,7 +6,7 @@ import { AiOutlineMail } from "react-icons/ai";
 function Footer() {
   return (
     <footer> 
-    <div className="footer mt-auto fixed-bottom">
+    <div className="footer mt-auto static-bottom">
       <h2 className="footer-text">Made by Randi Brown© using React and Bootstrap©</h2>
       <p>
         <ul className="logo-list">
