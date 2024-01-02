@@ -14,9 +14,9 @@ export default function Contact() {
 <div className="card-body contact-list res-body">
         <li><AiOutlineMail /> randibrown21@gmail.com</li>
         <li><AiFillPhone /> 503-320-2723</li> 
-        <li><FaGithub /> <a href="https://github.com/randirose">https://github.com/randirose</a></li>
+        <li><FaGithub /> <a href="https://github.com/randirose" className="contact-links">https://github.com/randirose</a></li>
   </div>
-  <p>Check out my skills and download my resume on the 'Resume' tab. <a href='./MirandaBrown.pdf' download>Download my Certificate of Completion</a> from my full-stack bootcamp and <a href='./BCGradesWithAvgs-comments.pdf' download>check out my grades and comments here.</a></p>
+  <p>Check out my skills and download my resume on the 'Resume' tab. <a href='./MirandaBrown.pdf' className="contact-links" download>Download my Certificate of Completion</a> from my full-stack bootcamp and <a href='./BCGradesWithAvgs-comments.pdf' className="contact-links" download>check out my grades and comments here.</a></p>
 </div>
 
 

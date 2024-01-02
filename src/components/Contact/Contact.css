@@ -30,3 +30,9 @@ html {
 body {
     margin-bottom: 150px; /* Margin bottom by footer height */
   }
+
+.contact-links {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bolder;
+}
