@@ -1,6 +1,5 @@
 // import { useState } from "react";
 import './Contact.css'
-import './Resume.css'
 
 export default function Contact() {
     return (
