@@ -10,5 +10,5 @@ html {
     min-height: 100%;
   }
 body {
-    margin-bottom: 100px; /* Margin bottom by footer height */
+    margin-bottom: 150px; /* Margin bottom by footer height */
   }
