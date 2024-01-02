@@ -55,7 +55,7 @@ const works = [
 
 export default function Portfolio(props) {
     return (
-        <div>
+        <div className="portfolio">
             <h1 className="portfolio-header mt-300">Check out my work below:</h1>
         <Project works={works} />
         </div>
