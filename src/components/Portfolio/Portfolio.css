@@ -4,3 +4,11 @@
     margin-top: 255px;
     text-align: center;
 }
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+    margin-bottom: 100px; /* Margin bottom by footer height */
+  }
