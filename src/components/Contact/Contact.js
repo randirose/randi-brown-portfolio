@@ -1,5 +1,9 @@
 // import { useState } from "react";
 import './Contact.css'
+import { AiOutlineMail } from "react-icons/ai";
+import { AiFillPhone } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
+
 
 export default function Contact() {
     return (
@@ -8,10 +12,9 @@ export default function Contact() {
         
   <div className='row d-flex justify-content-around m-2'>
 <div className="card-body res-body">
-        <li>email w icon</li>
-        <li>github w icon</li>
-        <li>number w icon</li>
-        <li>github link w icon</li>
+        <li><AiOutlineMail /> randibrown21@gmail.com</li>
+        <li><AiFillPhone /></li> 503-320-2723
+        <li><FaGithub /> https://github.com/randirose</li>
   </div>
 </div>
 

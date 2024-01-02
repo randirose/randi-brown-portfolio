@@ -2,6 +2,10 @@
     margin-top: 300px;
 }
 
+.card-body {
+    font-size: x-large;
+}
+
 .btn-contact-submit {
     width: 100%;
     margin-bottom: 20px;
