@@ -4,7 +4,7 @@ import './Contact.css'
 export default function Contact() {
     return (
         <>
-        <h1 className="res-header">Contact me using one of the methods below:</h1>
+        <h1 className="res-header mt-300">Contact me using one of the methods below:</h1>
         
   <div className='row d-flex justify-content-around m-2'>
 <div className="card-body res-body">
