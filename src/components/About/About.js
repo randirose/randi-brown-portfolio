@@ -10,7 +10,7 @@ export default function About() {
     <div className="col-md-8">
       <div className="card-body">
         <h5 className="card-title about-title">About Me</h5>
-        <p className="card-text about-text">Hi! My name is Randi and I'm a full-stack web developer residing in Portland, Oregon.<br /><br />I have a Bachelor's in Journalism and a Minor in Spanish from the University of Oregon. We built a website back in one of my Journalism courses at the UofO, and I've loved coding ever since! I recently completed the UofO's EdX Full-Stack Coding Bootcamp!<br /><br />In addition to coding all day, I love to travel and get outdoors whenever possible. I've been to the majority of our National Parks and I can't wait to visit them all! My partner and I are also the proud parents of 3 adorable cats named Mila, Ellie, and Jojo.</p>
+        <p className="card-text about-text">Hi! My name is Randi and I'm a full-stack web developer residing in Portland, Oregon.<br /><br />I have a Bachelor's in Journalism and a Minor in Spanish from the University of Oregon. We built a website back in one of my Journalism courses at the UofO, and I've loved coding ever since!<br></br>I just successfully completed the University of Oregon’s immersive, 24-week Full-Stack Coding Bootcamp—with training in HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Integrations, MongoDB, MySQL, Command Line, Git, and much more. Visit my works and download my resume here on my custom-made site!</p>
       </div>
     </div>
   </div>
