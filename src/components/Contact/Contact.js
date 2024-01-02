@@ -11,9 +11,9 @@ export default function Contact() {
         <h1 className="res-header contact-card mt-300">Contact me using one of the methods below:</h1>
         
   <div className='row d-flex justify-content-around m-2'>
-<div className="card-body res-body">
+<div className="card-body contact-list res-body">
         <li><AiOutlineMail /> randibrown21@gmail.com</li>
-        <li><AiFillPhone /></li> 503-320-2723
+        <li><AiFillPhone /> 503-320-2723</li> 
         <li><FaGithub /> https://github.com/randirose</li>
   </div>
 </div>
