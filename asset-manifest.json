@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/randi-brown-portfolio/static/css/main.7791bed0.css",
-    "main.js": "/randi-brown-portfolio/static/js/main.f4d73d23.js",
+    "main.css": "/randi-brown-portfolio/static/css/main.f4f8c9b4.css",
+    "main.js": "/randi-brown-portfolio/static/js/main.c598390b.js",
     "static/js/787.9d9a5a02.chunk.js": "/randi-brown-portfolio/static/js/787.9d9a5a02.chunk.js",
     "static/media/muli-latin-900italic.woff": "/randi-brown-portfolio/static/media/muli-latin-900italic.0ba0efb0fe338e81164e.woff",
     "static/media/muli-latin-700italic.woff": "/randi-brown-portfolio/static/media/muli-latin-700italic.f8821fbf9d8b43e333ca.woff",
@@ -36,12 +36,12 @@
     "static/media/muli-latin-200.woff2": "/randi-brown-portfolio/static/media/muli-latin-200.21b522a482ade72866a8.woff2",
     "static/media/muli-latin-300.woff2": "/randi-brown-portfolio/static/media/muli-latin-300.7848ba436e7b015290f8.woff2",
     "index.html": "/randi-brown-portfolio/index.html",
-    "main.7791bed0.css.map": "/randi-brown-portfolio/static/css/main.7791bed0.css.map",
-    "main.f4d73d23.js.map": "/randi-brown-portfolio/static/js/main.f4d73d23.js.map",
+    "main.f4f8c9b4.css.map": "/randi-brown-portfolio/static/css/main.f4f8c9b4.css.map",
+    "main.c598390b.js.map": "/randi-brown-portfolio/static/js/main.c598390b.js.map",
     "787.9d9a5a02.chunk.js.map": "/randi-brown-portfolio/static/js/787.9d9a5a02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7791bed0.css",
-    "static/js/main.f4d73d23.js"
+    "static/css/main.f4f8c9b4.css",
+    "static/js/main.c598390b.js"
   ]
 }
